@@ -3,3 +3,4 @@ This folder contains solutions related to array-based problems.
 1) 2-Sum Problem
 2) Max SubArray Problem
 3) Majority Element Problem
+4) Buying and Selling Stock
