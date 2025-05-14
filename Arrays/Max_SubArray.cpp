@@ -5,6 +5,8 @@
   Explanation: The subarray [4,-1,2,1] has the largest sum 6.
 */
 
+//Dry run to get a clear explanation!
+
  int maxSubArray(vector<int>& nums) {
         int maxi = INT_MIN;
         int sum=0; 
