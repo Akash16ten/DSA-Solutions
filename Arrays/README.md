@@ -5,3 +5,4 @@ This folder contains solutions related to array-based problems.
 3) Majority Element Problem
 4) Buying and Selling Stock
 5) 3-Sum Problem
+6) 4-Sum Problem
