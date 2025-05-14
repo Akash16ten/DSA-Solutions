@@ -7,6 +7,8 @@ Example:
 Input: prices = [7,1,5,3,6,4]
 Output: 5
 Buy on day 2, sell on day 5
+Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.
+
 */
 
 int maxProfit(vector<int>& prices) {
