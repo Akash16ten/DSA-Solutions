@@ -8,3 +8,4 @@ This folder contains solutions related to array-based problems.
 6) 4-Sum Problem
 7) Rotating Image Problem
 8) Merging Intervals Problem
+9) Sorting Colors
