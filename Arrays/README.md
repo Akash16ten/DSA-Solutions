@@ -10,3 +10,4 @@ This folder contains solutions related to array-based problems.
 8) Merging Intervals Problem
 9) Sorting Colors
 10) Merging Sorted Arrays
+11) Rotating an Array
