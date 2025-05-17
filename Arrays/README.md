@@ -9,3 +9,4 @@ This folder contains solutions related to array-based problems.
 7) Rotating Image Problem
 8) Merging Intervals Problem
 9) Sorting Colors
+10) Merging Sorted Arrays
