@@ -12,3 +12,4 @@ This folder contains solutions related to array-based problems.
 10) Merging Sorted Arrays Problem
 11) Rotating an Array Problem
 12) Setting Matrix 0s Problem
+13) Find all Numbers which have Disappeared from an Array Problem
