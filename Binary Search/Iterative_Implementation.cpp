@@ -1,4 +1,4 @@
-// Implement Binary search on a 1-D Array
+// Implement Binary search on a 1-D Array.
 
 int BinarySearch(vector<int>& nums, int target) {
         int low = 0;
