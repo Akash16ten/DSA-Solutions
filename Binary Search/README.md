@@ -2,3 +2,4 @@
 This folder contains solutions related to binary search-based problems.
 1) Implementation (1-D Array)
    a) Iterative Implementation 
+   b) Recursive Implementation 
