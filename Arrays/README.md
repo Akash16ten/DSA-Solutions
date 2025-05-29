@@ -14,3 +14,4 @@ This folder contains solutions related to array-based problems.
 12) Setting Matrix 0s Problem
 13) Find all Numbers which have Disappeared from an Array Problem
 14) Single Number Problem
+15) Next Permutation Problem 
