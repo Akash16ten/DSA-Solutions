@@ -21,3 +21,8 @@ int left = 0, right = nums.size() - 1, answer = nums.size();
         }
         return amswer; 
     }
+
+/*
+The only difference between upper and lower bound, is, in lower bound, we have to find the smallest index, whcih is greater than or 
+equal to (>=) the target, whereas, in upper bound, we have to find an index which is just greater than the target (>).
+*/
