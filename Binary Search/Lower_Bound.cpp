@@ -5,6 +5,8 @@ Example:
 nums = [3 5 8 15 19]
 target = 8
 Output = 2 
+
+*NOTE: Also known as Ceil value!
 */
 
 int left = 0, right = nums.size() - 1, answer = nums.size();
