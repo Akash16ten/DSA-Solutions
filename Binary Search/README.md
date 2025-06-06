@@ -4,3 +4,4 @@ This folder contains solutions related to binary search-based problems.
    a) Iterative Implementation 
    b) Recursive Implementation 
 2) Implementing Lower Bound
+3) Implementing Upper Bound
