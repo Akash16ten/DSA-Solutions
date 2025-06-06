@@ -8,9 +8,11 @@ int BinarySearch(vector<int>& nums, int target) {
 
             if (target == nums[mid]) return mid; // if we find the target, we return it straightaway!
                     
-            else if (target > nums[mid]) low = mid+1; // if the target is bigger than arr[mid], it will be in the right subarray.
+            else if (target > nums[mid]) low = mid+1; 
+            // if the target is bigger than arr[mid], it will be in the right subarray, thus we increment the low pointer.
                     
-            else high = mid-1; // if the target is smaller than arr[mid], it will be in the left subarray.
+            else high = mid-1; 
+            // if the target is smaller than arr[mid], it will be in the left subarray, thus we decrement the high pointer.    
         }
     return -1;
     }
