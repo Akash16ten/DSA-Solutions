@@ -6,9 +6,11 @@ int BinarySearch(vector<int>& nums, int target) {
         while (low <= high) {
             int mid = (low + high) / 2;
 
-            if (target == nums[mid]) return mid;
-            else if (target > nums[mid]) low = mid+1;
-            else high = mid-1;
+            if (target == nums[mid]) return mid; // if we find the target, we return it straightaway!
+                    
+            else if (target > nums[mid]) low = mid+1; // if the target is bigger than arr[mid], it will be in the right subarray.
+                    
+            else high = mid-1; // if the target is smaller than arr[mid], it will be in the left subarray.
         }
     return -1;
     }
