@@ -8,3 +8,4 @@ This folder contains solutions related to binary search-based problems.
 4) Search Insert Position
 5) Rotated Sorted Array: 1
 6) Rotated Sorted Array: 2
+7) Minimum in Rotated Sorted Array
