@@ -7,3 +7,4 @@ This folder contains solutions related to binary search-based problems.
 3) Implementing Upper Bound
 4) Search Insert Position
 5) Rotated Sorted Array: 1
+6) Rotated Sorted Array: 2
