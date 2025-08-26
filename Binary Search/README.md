@@ -10,3 +10,4 @@ This folder contains solutions related to binary search-based problems.
 6) Rotated Sorted Array: 2
 7) Minimum in Rotated Sorted Array
 8) Peak Element
+9) Aggressive Cows
