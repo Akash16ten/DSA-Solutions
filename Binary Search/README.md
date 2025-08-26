@@ -12,3 +12,4 @@ This folder contains solutions related to binary search-based problems.
 8) Peak Element
 9) Aggressive Cows
 10) Ship Packages
+11) Koko Eating Bananas
