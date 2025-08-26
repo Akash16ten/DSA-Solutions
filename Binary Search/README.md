@@ -13,3 +13,4 @@ This folder contains solutions related to binary search-based problems.
 9) Aggressive Cows
 10) Ship Packages
 11) Koko Eating Bananas
+12) Minimum Days to Make 'm' Bouquets
