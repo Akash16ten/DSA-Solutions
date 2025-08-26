@@ -1,5 +1,6 @@
 # Binary Search 
 This folder contains solutions related to binary search-based problems.
+(BS on answers, 1D arrays, 2D arrays)
 1) Implementation (1-D Array)
    a) Iterative Implementation 
    b) Recursive Implementation 
