@@ -15,3 +15,37 @@ Input: piles = [3,6,7,11], h = 8
 Output: 4
 */
 
+int getmax(vector<int>& piles)
+    {   
+        int maxi = INT_MIN;
+        for (int i=0; i<piles.size(); ++i)
+        {
+            maxi = max(piles[i], maxi);
+        }
+    return maxi;
+    }
+
+    long long counthours (vector<int>& piles, int hourly)
+    {
+        long long totalhours = 0;
+        for (int i=0; i<piles.size(); i++)
+        {
+            totalhours += ceil( (double)piles[i] / (double)hourly );
+        }
+    return totalhours;
+    }
+
+    int minEatingSpeed(vector<int>& piles, int h) {
+        int low = 1, high = getmax(piles);
+
+        while (low <= high)
+        {
+            int mid = (low + high)/2;
+            long long totalhours = counthours(piles, mid);
+
+            if (totalhours <= h) high = mid -1;
+
+            else low = mid+1;
+        }
+    return low;
+    }
