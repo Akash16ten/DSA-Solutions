@@ -19,3 +19,54 @@ Explanation: A ship capacity of 15 is the minimum to ship all the packages in 5 
 5th day: 10
 */
 
+int getmax(vector<int>& weights)
+        {
+            int maxi = INT_MIN;
+            for (int i=0; i<weights.size(); ++i)
+            {
+                maxi = max(weights[i], maxi);
+            }
+        return maxi;
+        }
+    
+    int getsum(vector<int>& weights)
+        {
+            int sum = 0;
+            for (int i=0; i<weights.size(); ++i)
+            {
+                sum+= weights[i];
+            }
+        return sum;
+        }
+
+    int helper (vector<int> &weights, int capacity)
+        {
+            int days=1, load=0;
+
+            for (int i=0; i<weights.size(); ++i)
+            {
+                if (weights[i] + load > capacity)
+                {
+                    days++;
+                    load = weights[i];
+                }
+
+                else load+= weights[i];
+            }
+        return days;
+        }
+
+
+    int shipWithinDays(vector<int>& weights, int days) {
+        int low = getmax(weights), high =getsum(weights);
+
+        while (low<=high)
+        {
+            int mid = (low+high)/2;
+            int noofdays = helper (weights, mid);
+
+            if (noofdays <= days) high = mid - 1;
+            else low = mid + 1;
+        }
+    return low;
+    }
