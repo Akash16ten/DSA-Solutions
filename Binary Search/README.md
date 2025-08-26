@@ -11,3 +11,4 @@ This folder contains solutions related to binary search-based problems.
 7) Minimum in Rotated Sorted Array
 8) Peak Element
 9) Aggressive Cows
+10) Ship Packages
