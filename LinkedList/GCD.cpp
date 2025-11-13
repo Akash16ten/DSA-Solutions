@@ -5,3 +5,20 @@ Return the linked list after insertion.
 The greatest common divisor of two numbers is the largest positive integer that evenly divides both numbers.
 */
 
+
+class Solution {
+public:
+    ListNode* insertGreatestCommonDivisors(ListNode* head) {
+        ListNode* temp = head;
+
+        while (temp != NULL && temp -> next != NULL)
+        {
+            ListNode* x = new ListNode(gcd(temp->val, temp->next->val));
+            x -> next = temp -> next;
+            temp -> next = x;
+
+            temp = temp -> next -> next;
+        }
+    return head;
+    }
+};
