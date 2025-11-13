@@ -6,3 +6,4 @@ This folder contains solutions related to basic maths-based problems.
 5) Reverse Linked List
 6) Next Greater Node in Linked List
 7) Intersection of 2 Linked Lists
+8) Odd Even Linked List
