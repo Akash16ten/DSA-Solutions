@@ -5,3 +5,4 @@ This folder contains solutions related to basic maths-based problems.
 4) Merge Nodes between Zeroes
 5) Reverse Linked List
 6) Next Greater Node in Linked List
+7) Intersection of 2 Linked Lists
