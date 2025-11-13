@@ -8,3 +8,27 @@ Given the head of a linked list with even length, return the maximum twin sum of
 
 */
 
+
+class Solution {
+public:
+    int pairSum(ListNode* head) {
+        vector<int> nums;
+        ListNode* temp = head;
+
+        while (temp != NULL)
+        {
+            nums.push_back(temp -> val);
+            temp = temp -> next;
+        }
+
+        int answer = INT_MIN;
+        int i = 0, j = nums.size()-1;
+        while (i <= j)
+        {
+            answer = max(answer, nums[i] + nums[j]);
+            i++;
+            j--;
+        }
+    return answer;
+    }
+};
