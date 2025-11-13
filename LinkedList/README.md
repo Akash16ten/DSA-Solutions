@@ -3,4 +3,4 @@ This folder contains solutions related to basic maths-based problems.
 2) Insert GCD in a Linked List.
 3) Max Twin Sum of a Linked List
 4) Merge Nodes between Zeroes
-5) 
+5) Reverse Linked List
